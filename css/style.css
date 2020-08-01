@@ -124,6 +124,12 @@ section {
   font-size: 14px;
 }
 
+.skill .icon img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  100px;       /* ※縦横を同値に */
+    height: 100px;       /* ※縦横を同値に */
+}
+
 /*--------------------------------------------------------------
 # 論文
 --------------------------------------------------------------*/
@@ -150,7 +156,7 @@ section {
 }
 
 .about-lists .content-item h4 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 400;
   padding: 0;
   margin: 20px 0;

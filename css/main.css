@@ -376,9 +376,9 @@ ul li {
 	font-weight: 300;
 }
 .services h5 {
-	font-size: 25px;
+	font-size: 28px;
 	font-weight: 300;
-	margin-top:10%;
+	margin-top:20%;
 	margin-bottom: 2%;
 	text-transform: none;
 }
@@ -391,11 +391,16 @@ ul li {
 .services-content {
 	margin: 50px;
 }
+
+.services-content li {
+	color: #6c7279;
+}
+
 .services-content li a {
 	color: #6c7279;
 	line-height: 30px;
 }
-.services-content li a:hover {
+.services-content a:hover {
 	color: #000;
 }
 /* ------------------------------------------------------------------------------
